@@ -9,7 +9,7 @@ puts "2. SHA1"
 
 user_way = gets.chomp.to_i
 
-until user_way.between?(1, 2)
+until user_way.between?(1, 2) # если не 1 и 2 заново спросить у пользователя!
   puts "Введите 1 или 2"
   user_way = gets.chomp.to_i
 end
